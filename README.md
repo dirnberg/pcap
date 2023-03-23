@@ -1,13 +1,13 @@
 # How to generate a pcap with bad reputation IPs
 
-tested with Ubuntu 22.04
+tested with Ubuntu 22.04 ;-)
 
 1. Create a file with bad repuations IPs
 
 touch ip.txt
 nano ip.txt
 
-2. Create the bash scriot lst2pcap.sh
+2. Create the bash script lst2pcap.sh
 
 #!/bin/bash
 rm ./out/*
@@ -19,7 +19,7 @@ while read IP;
  
 3. Start the bashscript with sudo rights
 
-nohup sudo ./lst2pcap.sh ip.lst
+nohup sudo ./lst2pcap.sh ip.txt
 
 4. Start on another machine with root rigths tcpdump
 
