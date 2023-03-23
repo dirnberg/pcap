@@ -40,7 +40,7 @@ nohup tcpdump -i port1 -s 0 -C 500 -w capture.pcap -vvv
 
 ```bash
 cd out
-for f in *.pcap; do tcpreplay -i enx00809b002a3f --mbps=0.001 $f; done
+for f in *.pcap; do tcpreplay -i eth1 --mbps=0.001 $f; done
 ```
 
 6. Copy the capture file via ssh
