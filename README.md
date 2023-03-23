@@ -1,4 +1,4 @@
-# How to generate a pcap with bad reputation IPs via tcprewrie
+# How to generate a pcap with bad reputation IPs inside via tcprewrite
 
 tested with Ubuntu 22.04 ;-)
 
