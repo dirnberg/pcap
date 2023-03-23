@@ -45,6 +45,6 @@ for f in *.pcap; do tcpreplay -i enx00809b002a3f --mbps=0.001 $f; done
 
 6. Copy the capture file via ssh
 
-``bash
+```bash
 scp admin@192.168.1.254:/data/capture/capture.pcap capture.pcap
 ```
